@@ -4,7 +4,8 @@
   "description": "* Add Landing Page\r * Add Campgrounds Page that lists all campgrounds",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,10 @@
   "homepage": "https://github.com/abudesai/yelpcamp#readme",
   "devDependencies": {
     "nodemon": "^1.17.5"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3"
   }
 }
